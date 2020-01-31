@@ -45,6 +45,8 @@ set guicursor+=a:blinkon0
 
 set nowrap "ez ahhoz hogy ne legyen uj sor
 
+set autoindent
+
 if has("gui_running")
   set lines=80 columns=80
   set guifont=Consolas:h14
