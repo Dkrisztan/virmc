@@ -1,10 +1,10 @@
 filetype plugin on 
 
+set directory^=$HOME/.vim/tmp// "a swap fileokat ide fogja tarolni
+
 syntax on
 
 set nocp 
-
-execute pathogen#infect()
 
 set number
 
@@ -27,7 +27,7 @@ inoremap { {<CR><CR>}<ESC>ki<tab><left>
 
 "set background=dark
 
-set tabstop=4
+set tabstop=2
 
 set laststatus=2
 
@@ -53,7 +53,7 @@ if has("gui_running")
   "set guifont=Monaco:h16
 endif
 
-colorscheme srcery
+colorscheme default "desert-el is nagyon jol mukodik az Xresources colorjaim
 
 set belloff=all
 
